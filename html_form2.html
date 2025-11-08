@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Forms</h1>
+        <form action="./thankyou.html" method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" required name = "username" placeholder="username" >   <br> <br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" required name="password" placeholder="password"> <br> <br>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" required name="email" placeholder="email">
+            
+            <p>select your gender</p>
+            
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name ="gender"><br>
+            
+            <label for="female">Female</label>
+            <input type="radio" id="Female" name ="gender"><br>
+
+            <label for="others">Others</label>
+            <input type="radio" id="Others"><br  name ="gender"><br><br>
+
+
+
+            <label for="age-group">Select your age</label>
+            <select name="" id="age-group" >
+                <option value="1-15">1-15</option>
+                <option value="15-30">15-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
+            </select><br><br>
+
+            <label for="desc">description</label>
+            <textarea name="" id="desc" cols="30" rows="10" placeholder="type here"> </textarea><br>
+
+
+
+
+
+        <input type="submit" value = "sign-in">
+    </form>
+</body>
+</html>
