@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+
+h1.heading{
+    color: magenta;
+}
+
+.main{
+    color: blue;
+}
+
+#h1id{
+    color: aqua;
+}
