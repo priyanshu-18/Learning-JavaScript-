@@ -1,0 +1,13 @@
+.main-heading{
+    border: 2px solid rgb(65, 207, 103);
+    background-color: rgb(65, 207, 103);
+    padding: 3px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.main1,.main2{
+ border: 2px solid black;
+ padding: 5px 10px;
+ margin: 15px 0;
+}

@@ -1,0 +1,17 @@
+h1{
+    border: 3px solid green;
+
+    /* padding: 20px 30px; */
+
+    padding: 10px;
+
+    /* padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px; */
+
+
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
