@@ -1,0 +1,19 @@
+nav {
+    padding-left: 0;
+    background-color: rgb(65, 158, 240);
+}
+
+nav ul {
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li {
+    display: inline-block;
+    margin: 15px 15px;
+    list-style: none;
+    font-size: 20px;
+}
